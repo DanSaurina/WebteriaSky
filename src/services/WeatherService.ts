@@ -10,8 +10,6 @@ const  key: string = process.env.REACT_APP_OPEN_WEATHER_API_KEY as string;
 // console.log(process.env);
 
 
-// const key: string = "53a9f8de614fe9835872166f5511f6b3" as string;
-
 if (key === undefined) {
   throw new Error('No Open Weather API Key defined - ensure you set a variable called REACT_APP_OPEN_WEATHER_API_KEY')
 }
