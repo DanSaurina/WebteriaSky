@@ -7,10 +7,10 @@ import {WeatherGov} from '../model/WeatherGov';
 
 // const  key = process.env.REACT_APP_OPEN_WEATHER_API_KEY;
 
-//const  key: string = process.env.REACT_APP_OPEN_WEATHER_API_KEY as string;
+const  key: string = process.env.REACT_APP_OPEN_WEATHER_API_KEY as string;
 
-const { REACT_APP_OPEN_WEATHER_API_KEY } = process.env;
- console.log(process.env);
+// const { REACT_APP_OPEN_WEATHER_API_KEY } = process.env;
+ // console.log(process.env);
 
 
 if (key === undefined) {
