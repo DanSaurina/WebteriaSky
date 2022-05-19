@@ -18,7 +18,7 @@ if (key === undefined) {
 }
 
 const keyQuery = `appid=${key}`
-const server = 'http://api.openweathermap.org/data/2.5';
+const server = 'https://api.openweathermap.org/data/2.5';
 
 
 /*
