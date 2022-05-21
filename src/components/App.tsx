@@ -168,11 +168,11 @@ const App: FC = () => {
     <div className="container">
       <h1>Webteria Weather </h1>
 
+    { /*
       <LocationSearch onSearch={addLocation}/>
-      
+    */
+    }  
       <label>
-          Or Select Preset
-        
           <select className="ml-1 mr-1" value={value} onChange={selectChange}>
             <option value="TBD">Select Preset Location</option>
             <option value="Honey Brook">Honey Brook</option>
